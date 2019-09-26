@@ -1,0 +1,38 @@
+h1{text-align: center;}
+.container {
+    border-style: solid ;
+    border-width: 1px;
+    width: 300px;
+    
+}
+.t1,.t2 , .t3{
+   
+   width:300px;
+   
+    border-collapse:collapse;
+    
+  
+}
+.t4{
+   
+    width:300px;
+    
+     border-collapse:collapse;
+     border-width: 0px 0px 1px 0px;
+     
+   
+ }
+ .t4 th{
+     border:solid black;
+     border-width: 0px 0px 0px 0px;
+ }
+th {
+text-align: left;
+    border: solid black;
+    border-width: 1px 0px 1px 0px;
+  }
+  .cen{ text-align: center; }
+  .right{
+      float: right;
+  }
+  
