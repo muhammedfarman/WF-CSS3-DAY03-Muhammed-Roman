@@ -1,0 +1,30 @@
+header{	
+	background-image: linear-gradient(to bottom right, darkgreen, yellowgreen  ); 
+	height: 50px;
+}
+main{
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	margin-top: 100px;
+	padding: 33px;
+	width: 300px;
+	color: white;
+	background-color: yellowgreen;
+	text-shadow: 2px 2px 4px orangered;
+	transform: rotate(0deg);
+	border-radius: 22px;
+	border-top: 2px solid red;
+
+	transition: ease-in-out text-shadow transform background-color border-radius border-top ;
+	transition-duration: 5s;
+}
+.container:hover{
+	text-shadow:  0px 0px 10px black;
+	transform: rotate(360deg);
+	background-color: lightgoldenrodyellow;
+	border-radius: 0;
+	border-top: 8px dotted blue;
+}
