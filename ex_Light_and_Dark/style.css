@@ -11,20 +11,22 @@ main{
 	margin-top: 100px;
 	padding: 33px;
 	width: 300px;
-	color: white;
+	color: black;
 	background-color: yellowgreen;
 	text-shadow: 2px 2px 4px orangered;
 	transform: rotate(0deg);
 	border-radius: 22px;
-	border-top: 2px solid red;
+	border-top: 12px  red;
+	border-style: solid;
 
-	transition: ease-in-out text-shadow transform background-color border-radius border-top ;
+	transition: ease-in-out text-shadow transform background-color border-radius border-top border-style  ;
 	transition-duration: 5s;
 }
 .container:hover{
 	text-shadow:  0px 0px 10px black;
 	transform: rotate(360deg);
+	color: white;
 	background-color: lightgoldenrodyellow;
-	border-radius: 0;
-	border-top: 8px dotted blue;
-}
+	border-radius: 40px;
+	border-top: 8px  blue;
+	border-style: dotted;
